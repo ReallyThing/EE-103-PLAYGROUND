@@ -1,0 +1,2 @@
+#THIS CODE WAS MADE BY EGEMEN KAHYAOĞLU
+print("Hello, World!")
