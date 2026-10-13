@@ -1,7 +1,7 @@
 import random
 
 loop_number = 0
-number = random.randint(0,9)
+number = random.randint(0,10)
 guess = int(input("Guess my number."+" "))
 while True:
     if guess == number:
