@@ -1,5 +1,4 @@
 import random
-import math
 
 loop_number = 0
 number = random.randint(0,9)
