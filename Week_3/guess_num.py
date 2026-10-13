@@ -1,6 +1,6 @@
 import random
 
-loop_number = 0
+loop_number = 1
 number = random.randint(0,10)
 guess = int(input("Guess my number."+" "))
 while True:
@@ -12,8 +12,10 @@ while True:
      print("not it. Again."+" ")
      guess = int(input())
      loop_number = loop_number+1
-     if loop_number >= 5:
-         print("You seem to be struggling. Let me give you a hint:"+" ")
-         distance = abs(guess-number)
-         hint = f"Your guess is {distance} away from the number."
-         print(hint)
+     if loop_number == 5:
+        
+         while True:
+             print("Oh, nooooooo!") #Is it supposed to loop infinitely? It will fill the terminal...
+         break
+             
+         
